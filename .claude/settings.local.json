@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__5315605d-54b5-480f-9cc2-81cb30609f0a__search_threads",
+      "mcp__5315605d-54b5-480f-9cc2-81cb30609f0a__get_thread",
+      "Read(//c/Users/jcaep/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/97659ca3-f47c-4121-9aa3-c206b4946ed2/54658ce5-96e8-4baa-9bb7-a80ce30a9936/skills/skill-creator/**)",
+      "Bash(python -m scripts.package_skill /tmp/writing-style)",
+      "Bash(python3 -m scripts.package_skill /tmp/writing-style)",
+      "Bash(python3 scripts/package_skill.py /tmp/writing-style)",
+      "Bash(py -m scripts.package_skill /tmp/writing-style)",
+      "Read(//usr/**)",
+      "Bash(ls /c/Python*/python.exe)",
+      "Bash(command -v python3.11 python3.12 python3.10)",
+      "Read(//c/tmp/**)",
+      "Bash(zip -r writing-style.skill writing-style/)",
+      "Bash(powershell.exe -Command \"Compress-Archive -Path 'writing-style' -DestinationPath 'writing-style.skill' -Force\")",
+      "Bash(powershell.exe -Command \"Compress-Archive -Path 'writing-style' -DestinationPath 'writing-style.zip' -Force && Copy-Item 'writing-style.zip' 'writing-style.skill'\")",
+      "PowerShell(Copy-Item \"C:\\\\tmp\\\\writing-style.skill\" \"C:\\\\Users\\\\jcaep\\\\OneDrive\\\\Documents\\\\GitHub\\\\agent_skills\\\\.agents\\\\skills\\\\writing-style.skill\")"
+    ]
+  }
+}
